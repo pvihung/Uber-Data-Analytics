@@ -1,5 +1,4 @@
 # Uber-Data-Analytics
----
 ## Introduction:
 This project analyzes **Uber ride-sharing data (2024)** to generate actionable business insights that can help improve **revenue optimization, customer experience, and operational efficiency**. The dataset provides detailed information on bookings, cancellations, ratings, ride distances, payment methods, and more, allowing for a holistic view of Uber’s ecosystem.
 
