@@ -101,22 +101,22 @@ This project analyzes **Uber ride-sharing data (2024)** to generate actionable b
 * **Issue**: High rate of driver cancellations reduces platform efficiency and customer trust
 * **Recommendation**: Have strict penalties/warning for frequent cancellations, or incentivize drivers who consistenly accept or complete rides.
 * **Impact**: Decrease cancellation rate and boost Uber's revenue
-
+---
 2. Optimize Customer Wait Times
 * **Issue**: Cancellations spike when wat time ~12.5 minutes
 * **Recommendation**: Provide driver time reminders or alert to reach customer within 10 minutes, or automatically send customer message that drivers are coming as soon as posisble
 * **Impact**: Reduce the cancellation rate and boost Uber's revenue
-
+---
 3. Review Vehicle Type
 * **Issue**: UberXL shows negligible contribution to revenue
 * **Recommendation**: Consider reallocate resources to higher demanding vehicles
 * **Impact**: Optimize resource
-
+---
 4. Prevent Incomplete Ride
 * **Issue**: Many customers stop around 10km
 * **Recommendation**: Add an app reminder/notification (for example: 'You are half way there'), or some offers when they finish the rides (for example: 2% cash back, Uber tokens)
 * **Impact**: Increase Ride Completition and boost Uber's revenue
-
+---
 6. Strengthen Customer Loyalty
 * **Issue**: The highest number of booking by Customer was 3
 * **Recommendation**: Introduce more offers for coming back customers, send notification about events might happen hours later/day later to seek customer's attention
