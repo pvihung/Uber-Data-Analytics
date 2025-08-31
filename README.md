@@ -122,21 +122,24 @@ This project analyzes **Uber ride-sharing data (2024)** to generate actionable b
 * **Recommendation**: Introduce more offers for coming back customers, send notification about events might happen hours later/day later to seek customer's attention
 * **Impact**: Improve customer loytalty and boost revenue
 
-## Data Prediction:
-1. For data prediction, we want to predict the status of the booking before it actually happens, in this case, meaning we can predict the booking will be completed/incomplete/cancelled before it actually happens
+## 🤖 Prediction Results
+For data prediction, we want to predict the status of the booking before it actually happens, in this case, meaning we can predict the booking will be completed/incomplete/cancelled before it actually happens
 
-2. **Model: XGBoost Classifier**
-* **Accuracy**: 93.3%
-* **Balanced Accuracy**: 66.7%
-* **Macro F1**: 65.5%
 
-* **Prediction Results 
+### Model: XGBoost Classifier
+- **Accuracy**: 93.3%  
+- **Balanced Accuracy**: 66.7%  
+- **Macro F1**: 65.5%  
+
+### 📊 Classification Report
+
 | Class           | Precision | Recall | F1-score | Support |
 |-----------------|-----------|--------|----------|---------|
-| 0 (Cancelled)   | **1.00**  | **1.00** | **1.00** | 7438    |
+| 0 (Cancelled)   | 1.00      | 1.00   | 1.00     | 7438    |
 | 1 (Completed)   | 0.91      | 1.00   | 0.95     | 18450   |
 | 2 (Incomplete)  | 0.13      | 0.01   | 0.01     | 1786    |
 | **Accuracy**    |           |        | **0.93** | 27674   |
 | **Macro avg**   | 0.68      | 0.67   | 0.65     | 27674   |
 | **Weighted avg**| 0.89      | 0.93   | 0.90     | 27674   |
+
 
