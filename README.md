@@ -96,7 +96,7 @@ This project analyzes **Uber ride-sharing data (2024)** to generate actionable b
 6. **Ratings**:
 * Customers tend to rate drivers more harshly, while drivers rate customers more generously.
 
-# Business Recommendation: 
+## Business Recommendation: 
 1. Reduce Driver-Initiated Cancellations:
 * **Issue**: High rate of driver cancellations reduces platform efficiency and customer trust
 * **Recommendation**: Have strict penalties/warning for frequent cancellations, or incentivize drivers who consistenly accept or complete rides.
