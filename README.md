@@ -69,31 +69,31 @@ This project analyzes **Uber ride-sharing data (2024)** to generate actionable b
 * **Key Recommendations Report**: Business insights with actionable strategies for Uber
 
 ## Key Takeaways: 
-1. 📊**Revenue & Ride Volume**:
+1. **Revenue & Ride Volume**:
 * Total 2024 revenue: $52M from 93M completed rides and 9M incomplete rides.
 * ~40% of rides are incomplete/cancelled (46.5M) → major red flag for platform efficiency.
 
-2. ⏰ **Demand & Timing**:
+2. **Demand & Timing**:
 * Peak booking demand: 17:00–20:00 hrs, lowest: 00:00–04:00 hrs (in line with Uber’s known trends).
 * Customers are more likely to cancel if waiting > 12.5 minutes.
 * Incomplete rides often happen when driver arrival time ≈ 20 minutes.
 
-3. 💳 **Payments & Vehicles**:
+3. **Payments & Vehicles**:
 * UPI is the dominant payment method.
 * No clear Vehicle preference stands out among customers.
 * UberXL did not attract the customers.
 
-4. 🚗 **Rides**:
+4. **Rides**:
 * The average length of rides is ~25km.
 * Incomplete rides were usually stopped at 10km.
 * Pickup and drop-off locations show a fairly balanced distribution of bookings.
 * Drivers are more likely to cancel the rides compared to customers.
   
-5. 👥 **Customer Behavior**:
+5. **Customer Behavior**:
 * No strong loyalty, since the max rides per customer in a year =3.
 * High spenders (>$4K) are mostly one-time customers.
 
-6. ⭐ **Ratings**:
+6. **Ratings**:
 * Customers tend to rate drivers more harshly, while drivers rate customers more generously.
 
 # Business Recommendation: 
@@ -122,7 +122,7 @@ This project analyzes **Uber ride-sharing data (2024)** to generate actionable b
 * **Recommendation**: Introduce more offers for coming back customers, send notification about events might happen hours later/day later to seek customer's attention
 * **Impact**: Improve customer loytalty and boost revenue
 
-## 🤖 Prediction Results
+## Prediction Results
 For data prediction, we want to predict the status of the booking before it actually happens, in this case, meaning we can predict the booking will be completed/incomplete/cancelled before it actually happens
 
 
@@ -131,7 +131,7 @@ For data prediction, we want to predict the status of the booking before it actu
 - **Balanced Accuracy**: 66.7%  
 - **Macro F1**: 65.5%  
 
-### 📊 Classification Report
+### Classification Report
 
 | Class           | Precision | Recall | F1-score | Support |
 |-----------------|-----------|--------|----------|---------|
@@ -141,5 +141,13 @@ For data prediction, we want to predict the status of the booking before it actu
 | **Accuracy**    |           |        | **0.93** | 27674   |
 | **Macro avg**   | 0.68      | 0.67   | 0.65     | 27674   |
 | **Weighted avg**| 0.89      | 0.93   | 0.90     | 27674   |
+
+### Confusion Matrix
+
+| Actual \ Predicted | Cancelled | Completed | Incomplete |
+|--------------------|-----------|-----------|------------|
+| **Cancelled**      | 7438      | 0         | 0          |
+| **Completed**      | 0         | 18372     | 78         |
+| **Incomplete**     | 0         | 1774      | 12         |
 
 
