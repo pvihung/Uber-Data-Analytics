@@ -134,7 +134,9 @@ This project analyzes **Uber ride-sharing data (2024)** to generate actionable b
               precision    recall  f1-score   support
 
      0 (Cancelled)       1.00      1.00      1.00      7438
+  
      1 (Completed)       0.91      1.00      0.95     18450
+  
      2 (Incomplete)      0.13      0.01      0.01      1786
 
     accuracy                           0.93     27674
@@ -143,7 +145,10 @@ weighted avg       0.89      0.93      0.90     27674
 
 
 * **Confusion Matrix**
+
 [[ 7438     0     0]
+
  [    0 18372    78]
+ 
  [    0  1774    12]]
 
